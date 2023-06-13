@@ -18,12 +18,12 @@
   ],
   "require": {
     "php": ">=7.3.0|^8.1",
-    "nesbot/carbon": "~1.0|~2",
+    "nesbot/carbon": "^2.62",
     "elasticsearch/elasticsearch": "~6.1"
   },
   "require-dev": {
-    "phpunit/phpunit": "~4.2|~5.0|~8.0|^9.0|^10.0",
-    "mockery/mockery": "^0.9.4|^1.0|^1.4.4"
+    "phpunit/phpunit": "^10.0",
+    "mockery/mockery": "^1.6.2"
   },
   "autoload": {
     "psr-4": {
