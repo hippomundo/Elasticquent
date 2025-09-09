@@ -4,25 +4,30 @@
   "description": "Maps Laravel Eloquent models to Elasticsearch types.",
   "keywords": [
     "elasticsearch",
+    "opensearch",
     "eloquent",
     "laravel"
   ],
-  "homepage": "https://github.com/elasticquent/Elasticquent",
+  "homepage": "https://github.com/hippomundo/Elasticquent",
   "license": "MIT",
   "authors": [
     {
       "name": "Adam Fairholm",
       "email": "adam.fairholm@gmail.com",
       "homepage": "http://adamfairholm.com"
+    },
+    {
+      "name": "Denis Horhul",
+      "email": "davin4u@gmail.com",
+      "homepage": "https://github.com/davin4u"
     }
   ],
   "require": {
-    "php": "^8.1",
-    "nesbot/carbon": "^2.62",
+    "php": "^8.2",
     "elasticsearch/elasticsearch": "^7.17"
   },
   "require-dev": {
-    "phpunit/phpunit": "^10.0",
+    "phpunit/phpunit": "^11.0",
     "mockery/mockery": "^1.6.2"
   },
   "autoload": {
